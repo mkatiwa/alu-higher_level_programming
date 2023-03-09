@@ -1,4 +1,9 @@
 #!/usr/bin/python3
-def common_elements(set_1, set_2):
-    common_values = (set_1 & set_2)
-    return common_values
+def uniq_add(my_list=[]):
+    uniq_list = set(my_list)
+    num = 0
+
+    for i in uniq_list:
+        num += i
+
+    return (num)
