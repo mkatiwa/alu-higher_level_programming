@@ -2,7 +2,7 @@
 """Defines a class Square"""
 
 
-class iiiSquare:
+class Square:
     """Class that defines properties of square.
     """
     pass
